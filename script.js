@@ -3,16 +3,14 @@ document.getElementById('contact-form').addEventListener('submit', function(e){
     alert('Thank you! Your message has been sent.');
     this.reset();
 });
+document.addEventListener("DOMContentLoaded", function () {
 
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.querySelector('.nav-links');
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.querySelector(".nav-links");
 
-hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
+  hamburger.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+      hamburger.classList.toggle("active");
+  });
 
-hamburger.addEventListener('click', () => 
-    console.log("Hamburger clicked");
-    navLinks.classList.toggle('active');
-    hamburger.classList.toggle('active');
 });
