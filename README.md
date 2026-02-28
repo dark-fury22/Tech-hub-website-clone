@@ -78,7 +78,7 @@ tech-hub-website-clone/
 
 ## 📷 Screenshot
 
-Add a screenshot after deployment:
+Add a screenshot after deployment: IMG_1595.jpeg
 
 ---
 
