@@ -11,7 +11,8 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', () => 
+    console.log("Hamburger clicked");
     navLinks.classList.toggle('active');
     hamburger.classList.toggle('active');
 });
