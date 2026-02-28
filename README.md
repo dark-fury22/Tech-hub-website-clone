@@ -84,4 +84,4 @@ Add a screenshot after deployment:
 
 ## 🌐 Live Demo
 
-After deploying with GitHub Pages:
+After deploying with GitHub Pages: https://dark-fury22.github.io/Tech-hub-website-clone/
